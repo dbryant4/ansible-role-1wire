@@ -1,0 +1,7 @@
+---
+- hosts: 1wire-servers
+  gather_facts: yes
+  vars:
+    1wire_graphite_server: 'graphite.example.com'
+  roles:
+    - ansible-role-1wire

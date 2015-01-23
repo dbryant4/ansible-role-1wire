@@ -1,0 +1,4 @@
+---
+1wire_graphite_server: "metrics.derricklbryant.com"
+1wire_script_root: '/root/pi-temperature-logger'
+1wire_git_url: 'https://github.com/dbryant4/pi-temperature-logger.git'
